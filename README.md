@@ -1,9 +1,9 @@
 # ENVECON153_Proj3
 
-Overview
+# Overview
 This project investigates dietary habits and nutritional adequacy for the elderly population (ages 50+) in four African countries: Uganda, Tanzania, Senegal, and Mali. It includes data processing, analysis, and visualization to derive meaningful insights into consumption behavior and adequacy of key nutrients.
 
-Group Members
+# Group Members
 Allison Nguyen
 
 Fari Santoso
@@ -16,8 +16,8 @@ Shrija Malla
 
 Avani Agarwal
 
-Project Structure
-📁 Sections
+# Deliverables
+
 Deliverable [A]: Population of Interest
 
 Identifies and filters data for elderly individuals in the target countries.
@@ -42,16 +42,8 @@ Deliverable [B]: Nutritional Content and Adequacy
 
 Assesses the adequacy of diet based on key nutrients.
 
-🧰 Requirements
-Install necessary dependencies using:
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Ensure you have access to the required Google Sheets for country datasets using appropriate APIs or tokens.
-
-📊 Data Sources
+# Data Sources
 The data is retrieved from Google Sheets:
 
 Uganda: 1yFWlP5N7Aowaj6t2roRSFFUC50aFD-RLBGfzGtqLl0w
@@ -60,8 +52,7 @@ Tanzania: 1tlNUxe2hY2DAOsv6u7R7yC_CiBcr05cXXQiRWBlEHEo
 
 Senegal: 1cCszXB2Irc1Dp9zyIQgeu4OVWy9ZqvJbTielK8h9PLk
 
-🖼️ Outputs
-The notebook generates:
+# Outputs
 
 Bar charts and visualizations for gamma values by gender and age.
 
@@ -69,8 +60,8 @@ Sorted nutrient adequacy plots across countries.
 
 Summaries of nutritional gaps.
 
-📌 Notes
-Be sure to use the CFEDemands Python module, which may be project-specific.
+# Note:
+-Be sure to use the CFEDemands Python module, which may be project-specific.
 
-Some datasets may be large; make sure to filter before visualization to reduce clutter.
+-Some datasets may be large; make sure to filter before visualization to reduce clutter.
 
